@@ -57,5 +57,11 @@ namespace Trucker_Log_Bag
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Fuel_Calculator_for_ATS fuelcalulatorforats = new Fuel_Calculator_for_ATS();
+            fuelcalulatorforats.Show();
+        }
     }
 }
