@@ -63,7 +63,7 @@ namespace Trucker_Log_Bag
         private void button1_Click(object sender, EventArgs e)
         {
             austria++;
-            austriaprice = austriaprice + 1.10;
+            austriaprice = austriaprice + 1.14;
             textBox1.Text = austria.ToString();
             textBox2.Text = austriaprice.ToString();
 
@@ -90,7 +90,7 @@ namespace Trucker_Log_Bag
         private void button2_Click(object sender, EventArgs e)
         {
             austria--;
-            austriaprice = austriaprice - 1.10;
+            austriaprice = austriaprice - 1.14;
             textBox1.Text = austria.ToString();
             textBox2.Text = austriaprice.ToString();
 
@@ -481,7 +481,7 @@ namespace Trucker_Log_Bag
         private void button25_Click(object sender, EventArgs e)
         {
             poland++;
-            polandprice = polandprice + 1.03;
+            polandprice = polandprice + 1.02;
             textBox25.Text = poland.ToString();
             textBox26.Text = polandprice.ToString();
 
@@ -498,7 +498,7 @@ namespace Trucker_Log_Bag
         private void button26_Click(object sender, EventArgs e)
         {
             poland--;
-            polandprice = polandprice - 1.03;
+            polandprice = polandprice - 1.02;
             textBox25.Text = poland.ToString();
             textBox26.Text = polandprice.ToString();
 
